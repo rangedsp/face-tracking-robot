@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+
+</head>
+
+<body>
+    <div>
+        <span>Emotion:</span>
+        <span id="emo" />
+    </div>
+    <div>
+        <span>X:</span>
+        <span id="x" />
+    </div>
+    <div>
+        <span>Y:</span>
+        <span id="y" />
+    </div>
+    <button id="tracking"
+            type="button">Start Tracking</button>
+    <button id="reset"
+            type="button">Reset</button>
+
+    <video id="cam"
+           autoplay
+           muted
+           playsinline></video>
+    <script src="./renderer.js"></script>
+</body>
+
+</html>

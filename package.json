@@ -1,0 +1,13 @@
+{
+  "main": "main.js",
+  "dependencies": {
+    "face-api.js": "^0.22.2",
+    "owi-robot-arm": "^0.0.2"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^25.1.1"
+  }
+}
